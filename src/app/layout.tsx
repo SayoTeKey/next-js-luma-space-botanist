@@ -49,6 +49,7 @@ export default function RootLayout({
       >
         <header className="w-full py-6 px-8 flex justify-between items-center border-b border-gray-200 dark:border-gray-700">
           <span className="text-xl font-bold">Luma Sternfield</span>
+          {/* später durch Logo ersetzen */}
           <nav>
             <ul className="flex gap-6">
               {navItems.map((item) => (
